@@ -40,7 +40,7 @@ class AuthRepository extends BaseAuthRepository {
   }
 
   void sendUser(UserItem? usr) {
-    if (usr == null) throw UnimplementedError();
+    if (usr == null) return;
     user = MyUser.fromDrift(usr);
     usrCtr.add(user);
   }
