@@ -1,7 +1,7 @@
 import 'package:mvvm_flutter/core/auth/data/repository/local/drift/auth_repository.dart';
-import '../di/get_it_test.dart';
-import 'repository/auth_repository_test.dart';
-import 'ui/auth_login_test.dart';
+import '../di/get_it.dart';
+import 'repository/auth_repository.dart';
+import 'ui/auth_login.dart';
 
 void main() {
   final di = GetItServiceTest();

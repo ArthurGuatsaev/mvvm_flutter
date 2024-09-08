@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import '../../app/app_test.dart';
+import '../../app/app.dart';
 
 void startLoginTest() async {
   testWidgets('Проверка отрисовки Login Page', (WidgetTester tester) async {

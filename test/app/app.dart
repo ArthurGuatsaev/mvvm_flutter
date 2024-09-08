@@ -5,7 +5,7 @@ import 'package:mvvm_flutter/core/auth/data/repository/local/drift/auth_reposito
 import 'package:mvvm_flutter/featers/navigation/bloc/navi_bloc.dart';
 import 'package:mvvm_flutter/pages/login/view/login_page.dart';
 
-import '../di/get_it_test.dart';
+import '../di/get_it.dart';
 
 MaterialApp runAppTest() {
   return MaterialApp(
