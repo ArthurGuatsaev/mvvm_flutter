@@ -1,9 +1,12 @@
 name: Flutter PR
 
 on:
- pull_request:
-   branches:
-     - "dev/sprint-**"
+  push:
+    branches:
+      - master
+#  pull_request:
+#    branches:
+#      - "dev/sprint-**"
    paths-ignore:
      - "docs/**"
      - "openapi/**"
